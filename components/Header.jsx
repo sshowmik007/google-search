@@ -27,7 +27,7 @@ function Header () {
         <div className=" flex w-full p-6 items-center">
 
         <Image src='https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png'
-        height={40} width={120} className="cursor-pointer" 
+        height={40} width={120} className="cursor-pointer" alt='google logo'
         onClick={() => router.push("/")} />
         {/* Search Bar for the searched items */}
         <form className='flex flex-grow border border-gray-200 rounded-full shadow-lg max-w-3xl items-center px-6 py-3 ml-10 mr-5'>
